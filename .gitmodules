@@ -1,0 +1,3 @@
+[submodule "lib/HierarchyApp"]
+	path = lib/HierarchyApp
+	url = https://github.com/johnmckerrell/HierarchyApp.git

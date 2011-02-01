@@ -15,6 +15,15 @@
 		2899E5220DE3E06400AC0155 /* smclivViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* smclivViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* smclivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* smclivViewController.m */; };
+		5283CBF812F8748D00E6F977 /* HierarchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBE912F8748D00E6F977 /* HierarchyViewController.m */; };
+		5283CBF912F8748D00E6F977 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBEB12F8748D00E6F977 /* ItemDetailViewController.m */; };
+		5283CBFA12F8748D00E6F977 /* ItemListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBED12F8748D00E6F977 /* ItemListTableViewCell.m */; };
+		5283CBFB12F8748D00E6F977 /* ItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBEF12F8748D00E6F977 /* ItemListViewController.m */; };
+		5283CBFC12F8748D00E6F977 /* ItemWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBF112F8748D00E6F977 /* ItemWebViewController.m */; };
+		5283CBFD12F8748D00E6F977 /* ItemWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5283CBF212F8748D00E6F977 /* ItemWebViewController.xib */; };
+		5283CBFE12F8748D00E6F977 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBF412F8748D00E6F977 /* ListViewController.m */; };
+		5283CBFF12F8748D00E6F977 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBF612F8748D00E6F977 /* WebBrowserViewController.m */; };
+		5283CC0012F8748D00E6F977 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5283CBF712F8748D00E6F977 /* WebBrowserViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,22 @@
 		28D7ACF70DDB3853001CB0EB /* smclivViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smclivViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* smcliv_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smcliv_Prefix.pch; sourceTree = "<group>"; };
+		5283CBE812F8748D00E6F977 /* HierarchyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyViewController.h; sourceTree = "<group>"; };
+		5283CBE912F8748D00E6F977 /* HierarchyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchyViewController.m; sourceTree = "<group>"; };
+		5283CBEA12F8748D00E6F977 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		5283CBEB12F8748D00E6F977 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		5283CBEC12F8748D00E6F977 /* ItemListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListTableViewCell.h; sourceTree = "<group>"; };
+		5283CBED12F8748D00E6F977 /* ItemListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListTableViewCell.m; sourceTree = "<group>"; };
+		5283CBEE12F8748D00E6F977 /* ItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListViewController.h; sourceTree = "<group>"; };
+		5283CBEF12F8748D00E6F977 /* ItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListViewController.m; sourceTree = "<group>"; };
+		5283CBF012F8748D00E6F977 /* ItemWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemWebViewController.h; sourceTree = "<group>"; };
+		5283CBF112F8748D00E6F977 /* ItemWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemWebViewController.m; sourceTree = "<group>"; };
+		5283CBF212F8748D00E6F977 /* ItemWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemWebViewController.xib; sourceTree = "<group>"; };
+		5283CBF312F8748D00E6F977 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		5283CBF412F8748D00E6F977 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		5283CBF512F8748D00E6F977 /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		5283CBF612F8748D00E6F977 /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		5283CBF712F8748D00E6F977 /* WebBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* smcliv-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "smcliv-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
+				5283CBDC12F8747B00E6F977 /* lib */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -105,6 +131,38 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5283CBDC12F8747B00E6F977 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				5283CBE712F8748D00E6F977 /* HierarchyViewController */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		5283CBE712F8748D00E6F977 /* HierarchyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5283CBE812F8748D00E6F977 /* HierarchyViewController.h */,
+				5283CBE912F8748D00E6F977 /* HierarchyViewController.m */,
+				5283CBEA12F8748D00E6F977 /* ItemDetailViewController.h */,
+				5283CBEB12F8748D00E6F977 /* ItemDetailViewController.m */,
+				5283CBEC12F8748D00E6F977 /* ItemListTableViewCell.h */,
+				5283CBED12F8748D00E6F977 /* ItemListTableViewCell.m */,
+				5283CBEE12F8748D00E6F977 /* ItemListViewController.h */,
+				5283CBEF12F8748D00E6F977 /* ItemListViewController.m */,
+				5283CBF012F8748D00E6F977 /* ItemWebViewController.h */,
+				5283CBF112F8748D00E6F977 /* ItemWebViewController.m */,
+				5283CBF212F8748D00E6F977 /* ItemWebViewController.xib */,
+				5283CBF312F8748D00E6F977 /* ListViewController.h */,
+				5283CBF412F8748D00E6F977 /* ListViewController.m */,
+				5283CBF512F8748D00E6F977 /* WebBrowserViewController.h */,
+				5283CBF612F8748D00E6F977 /* WebBrowserViewController.m */,
+				5283CBF712F8748D00E6F977 /* WebBrowserViewController.xib */,
+			);
+			name = HierarchyViewController;
+			path = lib/HierarchyApp/HierarchyViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +216,8 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* smclivViewController.xib in Resources */,
+				5283CBFD12F8748D00E6F977 /* ItemWebViewController.xib in Resources */,
+				5283CC0012F8748D00E6F977 /* WebBrowserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +231,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* smclivAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* smclivViewController.m in Sources */,
+				5283CBF812F8748D00E6F977 /* HierarchyViewController.m in Sources */,
+				5283CBF912F8748D00E6F977 /* ItemDetailViewController.m in Sources */,
+				5283CBFA12F8748D00E6F977 /* ItemListTableViewCell.m in Sources */,
+				5283CBFB12F8748D00E6F977 /* ItemListViewController.m in Sources */,
+				5283CBFC12F8748D00E6F977 /* ItemWebViewController.m in Sources */,
+				5283CBFE12F8748D00E6F977 /* ListViewController.m in Sources */,
+				5283CBFF12F8748D00E6F977 /* WebBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
