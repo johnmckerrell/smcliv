@@ -23,7 +23,13 @@
     // Override point for customization after application launch.
 
 	// Set the view controller as the window's root view controller and display.
-    self.window.rootViewController = self.viewController;
+    if ([self.window respondsToSelector:@selector(setRootViewController:)]) {
+        self.window.rootViewController = self.viewController;
+    } else {
+        // Support < iOS 4.0
+        [self.window addSubview:self.viewController.view];
+    }
+
     [self.window makeKeyAndVisible];
 
     return YES;
