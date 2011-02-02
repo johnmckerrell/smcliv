@@ -4,6 +4,7 @@
 	};
 	appearance = {
 		navigationBarTint = "";
+		"sectionIndexMinimumDisplayRowCount" = 10;
 	};
 	itemData = {
 		title = Talks;
