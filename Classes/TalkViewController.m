@@ -171,7 +171,7 @@
         cell = [tableView dequeueReusableCellWithIdentifier:BigCellIdentifier];
         if (cell == nil) {
             cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:BigCellIdentifier] autorelease];
-            //cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            cell.selectionStyle = UITableViewCellSelectionStyleNone;
             cell.textLabel.numberOfLines = 0;
             cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
             cell.textLabel.font = [UIFont systemFontOfSize:18];
