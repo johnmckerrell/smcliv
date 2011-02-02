@@ -23,14 +23,6 @@
 				events,
 			);
 		},
-		{
-			title = Genres;
-			icon = "genres.png";
-			path = (
-				genres,
-				authors,
-			);
-		},
 	);
 	filters = {
 		events = {
