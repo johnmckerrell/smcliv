@@ -42,6 +42,9 @@
 		529255D112F9314000972A73 /* massive-smc-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 529255C612F9314000972A73 /* massive-smc-logo.jpg */; };
 		529255EF12F9321700972A73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529255EE12F9321700972A73 /* SystemConfiguration.framework */; };
 		5292563C12F9340400972A73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5292563B12F9340400972A73 /* Localizable.strings */; };
+		5292575612F9708200972A73 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5292575512F9708200972A73 /* Icon.png */; };
+		5292576412F9720600972A73 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5292576212F9720600972A73 /* Icon-72.png */; };
+		5292576512F9720600972A73 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5292576312F9720600972A73 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +96,9 @@
 		529255C612F9314000972A73 /* massive-smc-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "massive-smc-logo.jpg"; sourceTree = "<group>"; };
 		529255EE12F9321700972A73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5292563912F933FD00972A73 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5292575512F9708200972A73 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5292576212F9720600972A73 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5292576312F9720600972A73 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* smcliv-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "smcliv-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -226,6 +232,9 @@
 		529255BB12F9314000972A73 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5292576212F9720600972A73 /* Icon-72.png */,
+				5292576312F9720600972A73 /* Icon@2x.png */,
+				5292575512F9708200972A73 /* Icon.png */,
 				529255BC12F9314000972A73 /* 106-sliders.png */,
 				529255BD12F9314000972A73 /* 106-sliders@2x.png */,
 				529255BE12F9314000972A73 /* 11-clock.png */,
@@ -310,6 +319,9 @@
 				529255D012F9314000972A73 /* Default@2x.png in Resources */,
 				529255D112F9314000972A73 /* massive-smc-logo.jpg in Resources */,
 				5292563C12F9340400972A73 /* Localizable.strings in Resources */,
+				5292575612F9708200972A73 /* Icon.png in Resources */,
+				5292576412F9720600972A73 /* Icon-72.png in Resources */,
+				5292576512F9720600972A73 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
