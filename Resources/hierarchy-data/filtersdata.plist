@@ -1,0 +1,53 @@
+{
+	categories = (
+		{
+			title = Topics;
+			icon = "106-sliders.png";
+			path = (
+				topics,
+				authors,
+			);
+		},
+		{
+			title = Events;
+			icon = "11-clock.png";
+			path = (
+				events,
+			);
+		},
+		{
+			title = Speakers;
+			icon = "111-user.png";
+			path = (
+				speakers,
+				events,
+			);
+		},
+		{
+			title = Genres;
+			icon = "genres.png";
+			path = (
+				genres,
+				authors,
+			);
+		},
+	);
+	filters = {
+		events = {
+			title = Events;
+			property = event;
+		};
+		publishers = {
+			property = publisher;
+			title = Publishers;
+		};
+		speakers = {
+			property = speaker;
+			title = Speakers;
+		};
+		topics = {
+			property = topic;
+			title = Topics;
+		};
+	};
+}

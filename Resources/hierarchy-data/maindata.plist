@@ -1,0 +1,75 @@
+(
+	{
+		id = 4;
+		title = "Handling Social Media Overload";
+		properties = {
+			speaker = "Mike Nolan";
+			event = "August 2010";
+			topic = (
+				Copyright,
+				Law,
+			);
+		};
+	},
+	{
+		id = 5;
+		title = "Publish and (don\U2019t) be damned";
+		properties = {
+			speaker = "Jon Bloor";
+			event = "August 2010";
+			topic = (
+				Copyright,
+				Law,
+			);
+		};
+	},
+	{
+		id = 4;
+		title = "Federated, Open Social Networks ";
+		properties = {
+			speaker = "Richard Smedley";
+			event = "August 2010";
+			topic = (
+				Freedom,
+			);
+		};
+	},
+	{
+		id = 3;
+		title = "Social Media & Work";
+		properties = {
+			speaker = "Dave Coveney";
+			event = "June 2010";
+			topic = (
+				Business,
+			);
+		};
+	},
+	{
+		id = 1;
+		title = "Data Visualisation";
+		properties = {
+			speaker = "Alison Gow";
+			event = "June 2010";
+			topic = (
+				Data,
+				Visualisation,
+				Journalism,
+				Infographics,
+			);
+		};
+	},
+	{
+		id = 2;
+		title = "How to win Foursquare friends and influence people.";
+		properties = {
+			speaker = "Josh R";
+			event = "June 2010";
+			topic = (
+				Business,
+				Location,
+				Foursquare,
+			);
+		};
+	},
+)

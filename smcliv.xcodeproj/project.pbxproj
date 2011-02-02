@@ -24,6 +24,9 @@
 		5283CBFE12F8748D00E6F977 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBF412F8748D00E6F977 /* ListViewController.m */; };
 		5283CBFF12F8748D00E6F977 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBF612F8748D00E6F977 /* WebBrowserViewController.m */; };
 		5283CC0012F8748D00E6F977 /* WebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5283CBF712F8748D00E6F977 /* WebBrowserViewController.xib */; };
+		5292554C12F87CCC00972A73 /* appdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554912F87CCC00972A73 /* appdata.plist */; };
+		5292554D12F87CCC00972A73 /* filtersdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554A12F87CCC00972A73 /* filtersdata.plist */; };
+		5292554E12F87CCC00972A73 /* maindata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554B12F87CCC00972A73 /* maindata.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		5283CBF512F8748D00E6F977 /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
 		5283CBF612F8748D00E6F977 /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
 		5283CBF712F8748D00E6F977 /* WebBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebBrowserViewController.xib; sourceTree = "<group>"; };
+		5292554912F87CCC00972A73 /* appdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = appdata.plist; sourceTree = "<group>"; };
+		5292554A12F87CCC00972A73 /* filtersdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = filtersdata.plist; sourceTree = "<group>"; };
+		5292554B12F87CCC00972A73 /* maindata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = maindata.plist; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* smcliv-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "smcliv-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +122,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5292554812F87CCC00972A73 /* hierarchy-data */,
 				2899E5210DE3E06400AC0155 /* smclivViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* smcliv-Info.plist */,
@@ -163,6 +170,17 @@
 			);
 			name = HierarchyViewController;
 			path = lib/HierarchyApp/HierarchyViewController;
+			sourceTree = "<group>";
+		};
+		5292554812F87CCC00972A73 /* hierarchy-data */ = {
+			isa = PBXGroup;
+			children = (
+				5292554912F87CCC00972A73 /* appdata.plist */,
+				5292554A12F87CCC00972A73 /* filtersdata.plist */,
+				5292554B12F87CCC00972A73 /* maindata.plist */,
+			);
+			name = "hierarchy-data";
+			path = "Resources/hierarchy-data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +236,9 @@
 				2899E5220DE3E06400AC0155 /* smclivViewController.xib in Resources */,
 				5283CBFD12F8748D00E6F977 /* ItemWebViewController.xib in Resources */,
 				5283CC0012F8748D00E6F977 /* WebBrowserViewController.xib in Resources */,
+				5292554C12F87CCC00972A73 /* appdata.plist in Resources */,
+				5292554D12F87CCC00972A73 /* filtersdata.plist in Resources */,
+				5292554E12F87CCC00972A73 /* maindata.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
