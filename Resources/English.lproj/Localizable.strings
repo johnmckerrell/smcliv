@@ -7,3 +7,7 @@
  */
 
 "UPDATING_CONTENT" = "Updating content...";
+
+"TALK_OVERVIEW" = "Overview";
+"TALK_BIO" = "Speaker Bio";
+"TALK_ACTIONS" = "Actions";

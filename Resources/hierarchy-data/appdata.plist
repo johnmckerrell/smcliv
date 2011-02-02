@@ -10,5 +10,6 @@
 		title = Talks;
 		canAppearAsCategory = YES;
 		categoryIcon = "137-presentation.png";
+		"defaultViewController" = TalkViewController;
 	};
 }

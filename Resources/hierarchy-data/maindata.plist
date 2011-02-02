@@ -2,6 +2,25 @@
 	{
 		id = 4;
 		title = "Handling Social Media Overload";
+		overview = "Ever find yourself struggling to cope with too much information on the superinterwebs? Find out how to tame the social media beast with Michael\U2019s top tips for handling social media overload!";
+		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
+		actions = (
+			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/mikenolan/handling-social-media-overload";
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/MikeNolan";
+			},
+			{
+				url = "http://www.michaelnolan.co.uk/";
+				title = Homepage;
+				type = link;
+			},
+		);
 		properties = {
 			speaker = "Mike Nolan";
 			event = "August 2010";
@@ -14,6 +33,25 @@
 	{
 		id = 5;
 		title = "Publish and (don\U2019t) be damned";
+		overview = "After a brilliant talk about law and Social Media at Ignite last Thursday, we are delighted that Jon will enlighten us on this most thorny of subjects.";
+		bio = "Jon Bloor is head of corporate and commercial law at Lees Solicitors LLP (and social media enthusiast)";
+		actions = (
+			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/mikenolan/handling-social-media-overload";
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/beej777";
+			},
+			{
+				url = "http://www.peninsulawyer.com/";
+				title = Homepage;
+				type = link;
+			},
+		);
 		properties = {
 			speaker = "Jon Bloor";
 			event = "August 2010";
@@ -26,6 +64,20 @@
 	{
 		id = 4;
 		title = "Federated, Open Social Networks ";
+		overview = "Richard Smedley presents a look at how to keep control of your privacy and contacts with the next generation of open social media tools.";
+		bio = "Richard Smedley teaches community groups how to combine accessible websites and a manageable social media campaign in a sustainable IT strategy.";
+		actions = (
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/richardsmedley";
+			},
+			{
+				url = "http://goodGNUs.org/";
+				title = Homepage;
+				type = link;
+			},
+		);
 		properties = {
 			speaker = "Richard Smedley";
 			event = "August 2010";
@@ -37,6 +89,30 @@
 	{
 		id = 3;
 		title = "Social Media & Work";
+		overview = "Dave Coveney will talk about how social media can be used in a business context, with examples from his own experience over nearly twenty years of social networking.";
+		bio = "Dave is a developer by trade but nowadays more a director (a polite way of saying the guy who does most things other than any proper coding work) and runs Interconnect IT. Interconnect IT is one of the country\U2019s top WordPress consultancies with sites like My Telegraph and Metro International\U2019s blogging network running lots of their code.";
+		actions = (
+			{
+				type = link;
+				title = "Prezi Presentation";
+				url = "http://prezi.com/zv-kxprstdfx/work-social-media/";
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/davecoveney";
+			},
+			{
+				url = "http://www.interconnectit.com/";
+				title = Homepage;
+				type = link;
+			},
+			{
+				type = video;
+				title = Video;
+				url = "http://blip.tv/file/get/Franticorang-WorkSocialMediaDaveCoveney581.m4v";
+			},
+		);
 		properties = {
 			speaker = "Dave Coveney";
 			event = "June 2010";
@@ -48,6 +124,30 @@
 	{
 		id = 1;
 		title = "Data Visualisation";
+		overview = "Alison Gow introduced some of the free data visualisation tools available online and provided real life examples of how to use them. She showew us that you don\U2019t need lots of words to make a point or tell a story.";
+		bio = "Editor, skier, biker; internet and caffeine obsessive.";
+		actions = (
+			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/alisongow/smc-data-visualisation";
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/alisongow";
+			},
+			{
+				url = "http://headlinesanddedlines.blogspot.com/";
+				title = Homepage;
+				type = link;
+			},
+			{
+				type = video;
+				title = Video;
+				url = "http://blip.tv/file/get/Franticorang-DataTheArtOfStorytellingAlisonGow969.m4v";
+			},
+		);
 		properties = {
 			speaker = "Alison Gow";
 			event = "June 2010";
@@ -62,6 +162,28 @@
 	{
 		id = 2;
 		title = "How to win Foursquare friends and influence people.";
+		actions = (
+			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/technicalfault/how-to-win-foursquare-friends-and-influence-people";
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/technicalfault";
+			},
+			{
+				url = "http://www.technicalfault.net/";
+				title = Homepage;
+				type = link;
+			},
+			{
+				type = video;
+				title = Video;
+				url = "http://blip.tv/file/get/Franticorang-Josh821.m4v";
+			},
+		);
 		properties = {
 			speaker = "Josh R";
 			event = "June 2010";

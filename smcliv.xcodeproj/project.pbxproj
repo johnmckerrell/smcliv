@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* smclivViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* smclivViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* smclivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* smclivViewController.m */; };
+		5231FC2D12F9AB06007B29B3 /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231FC2C12F9AB06007B29B3 /* TalkViewController.m */; };
 		5283CBF812F8748D00E6F977 /* HierarchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBE912F8748D00E6F977 /* HierarchyViewController.m */; };
 		5283CBF912F8748D00E6F977 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBEB12F8748D00E6F977 /* ItemDetailViewController.m */; };
 		5283CBFA12F8748D00E6F977 /* ItemListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBED12F8748D00E6F977 /* ItemListTableViewCell.m */; };
@@ -59,6 +60,8 @@
 		28D7ACF70DDB3853001CB0EB /* smclivViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smclivViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* smcliv_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smcliv_Prefix.pch; sourceTree = "<group>"; };
+		5231FC2B12F9AB06007B29B3 /* TalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkViewController.h; sourceTree = "<group>"; };
+		5231FC2C12F9AB06007B29B3 /* TalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkViewController.m; sourceTree = "<group>"; };
 		5283CBE812F8748D00E6F977 /* HierarchyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyViewController.h; sourceTree = "<group>"; };
 		5283CBE912F8748D00E6F977 /* HierarchyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HierarchyViewController.m; sourceTree = "<group>"; };
 		5283CBEA12F8748D00E6F977 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				28D7ACF70DDB3853001CB0EB /* smclivViewController.m */,
 				529255A512F92C5400972A73 /* HTTPTask.h */,
 				529255A612F92C5400972A73 /* HTTPTask.m */,
+				5231FC2B12F9AB06007B29B3 /* TalkViewController.h */,
+				5231FC2C12F9AB06007B29B3 /* TalkViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				5283CBFF12F8748D00E6F977 /* WebBrowserViewController.m in Sources */,
 				5292555112F929B900972A73 /* Reachability.m in Sources */,
 				529255A712F92C5400972A73 /* HTTPTask.m in Sources */,
+				5231FC2D12F9AB06007B29B3 /* TalkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
