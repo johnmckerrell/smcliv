@@ -66,7 +66,11 @@ const CGFloat MAX_TIME_INTERVAL = 1800.00;
 }
 
 - (void)showHierarchyViewController {
+    // For some reason the navigationBar would initially show 20 pixels too low
+    // Removing the hierarchy view and re-adding it seems to fix it
     self.hierarchyController = [[[HierarchyViewController alloc] initWithAppData:self.appdata filtersData:self.filtersdata mainData:self.maindata] autorelease];
+    [self.view insertSubview:self.hierarchyController.view belowSubview:self.backgroundImage];
+    [self.hierarchyController.view removeFromSuperview];
     [self.view insertSubview:self.hierarchyController.view belowSubview:self.backgroundImage];
     
     [self.hierarchyController viewWillAppear:YES];
@@ -140,7 +144,9 @@ const CGFloat MAX_TIME_INTERVAL = 1800.00;
     }
 
     if (!loadingData) {
-        [self showHierarchyViewController];
+        // Using a timer to fix incorrect positioning of navigationBar
+        // See showHierarchyViewController for more information
+        [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(showHierarchyViewController) userInfo:nil repeats:NO];
     }
 }
 
