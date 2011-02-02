@@ -47,7 +47,12 @@ const CGFloat MAX_TIME_INTERVAL = 1800.00;
 
     if (task == self.updateTask) {
         if (!task.failed && [task.httpData length]) {
-            id httpMainData = [NSPropertyListSerialization propertyListWithData:task.httpData options:NSPropertyListImmutable format:nil error:nil];
+            id httpMainData = nil;
+            if ([NSPropertyListSerialization respondsToSelector:@selector(propertyListWithData:options:format:error:)]) {
+                httpMainData = [NSPropertyListSerialization propertyListWithData:task.httpData options:NSPropertyListImmutable format:nil error:nil];
+            } else if ([NSPropertyListSerialization respondsToSelector:@selector(propertyListFromData:mutabilityOption:format:errorDescription:)]) {
+                httpMainData = [NSPropertyListSerialization propertyListFromData:task.httpData mutabilityOption:NSPropertyListImmutable format:nil errorDescription:nil];
+            }
             if (httpMainData && [httpMainData isKindOfClass:[NSArray class]]) {
                 self.maindata = httpMainData;
                 NSString *maindataDocumentsPath = [[appDelegate applicationDocumentsDirectory] stringByAppendingPathComponent:@"maindata.plist"];
