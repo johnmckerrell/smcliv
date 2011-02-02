@@ -15,6 +15,14 @@
 		2899E5220DE3E06400AC0155 /* smclivViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* smclivViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* smclivViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* smclivViewController.m */; };
+		52098A3512F9BC1E0094E7D0 /* UIButtonBarArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A2D12F9BC1E0094E7D0 /* UIButtonBarArrowLeft.png */; };
+		52098A3612F9BC1E0094E7D0 /* UIButtonBarArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A2E12F9BC1E0094E7D0 /* UIButtonBarArrowLeft@2x.png */; };
+		52098A3712F9BC1E0094E7D0 /* UIButtonBarArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A2F12F9BC1E0094E7D0 /* UIButtonBarArrowRight.png */; };
+		52098A3812F9BC1E0094E7D0 /* UIButtonBarArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3012F9BC1E0094E7D0 /* UIButtonBarArrowRight@2x.png */; };
+		52098A3912F9BC1E0094E7D0 /* UIButtonBarRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3112F9BC1E0094E7D0 /* UIButtonBarRefresh.png */; };
+		52098A3A12F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3212F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png */; };
+		52098A3B12F9BC1E0094E7D0 /* UIButtonBarStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3312F9BC1E0094E7D0 /* UIButtonBarStop.png */; };
+		52098A3C12F9BC1E0094E7D0 /* UIButtonBarStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3412F9BC1E0094E7D0 /* UIButtonBarStop@2x.png */; };
 		5231FC2D12F9AB06007B29B3 /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231FC2C12F9AB06007B29B3 /* TalkViewController.m */; };
 		5283CBF812F8748D00E6F977 /* HierarchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBE912F8748D00E6F977 /* HierarchyViewController.m */; };
 		5283CBF912F8748D00E6F977 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBEB12F8748D00E6F977 /* ItemDetailViewController.m */; };
@@ -60,6 +68,14 @@
 		28D7ACF70DDB3853001CB0EB /* smclivViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smclivViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* smcliv_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smcliv_Prefix.pch; sourceTree = "<group>"; };
+		52098A2D12F9BC1E0094E7D0 /* UIButtonBarArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarArrowLeft.png; sourceTree = "<group>"; };
+		52098A2E12F9BC1E0094E7D0 /* UIButtonBarArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		52098A2F12F9BC1E0094E7D0 /* UIButtonBarArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarArrowRight.png; sourceTree = "<group>"; };
+		52098A3012F9BC1E0094E7D0 /* UIButtonBarArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarArrowRight@2x.png"; sourceTree = "<group>"; };
+		52098A3112F9BC1E0094E7D0 /* UIButtonBarRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarRefresh.png; sourceTree = "<group>"; };
+		52098A3212F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarRefresh@2x.png"; sourceTree = "<group>"; };
+		52098A3312F9BC1E0094E7D0 /* UIButtonBarStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarStop.png; sourceTree = "<group>"; };
+		52098A3412F9BC1E0094E7D0 /* UIButtonBarStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarStop@2x.png"; sourceTree = "<group>"; };
 		5231FC2B12F9AB06007B29B3 /* TalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkViewController.h; sourceTree = "<group>"; };
 		5231FC2C12F9AB06007B29B3 /* TalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkViewController.m; sourceTree = "<group>"; };
 		5283CBE812F8748D00E6F977 /* HierarchyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyViewController.h; sourceTree = "<group>"; };
@@ -235,6 +251,14 @@
 		529255BB12F9314000972A73 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				52098A2D12F9BC1E0094E7D0 /* UIButtonBarArrowLeft.png */,
+				52098A2E12F9BC1E0094E7D0 /* UIButtonBarArrowLeft@2x.png */,
+				52098A2F12F9BC1E0094E7D0 /* UIButtonBarArrowRight.png */,
+				52098A3012F9BC1E0094E7D0 /* UIButtonBarArrowRight@2x.png */,
+				52098A3112F9BC1E0094E7D0 /* UIButtonBarRefresh.png */,
+				52098A3212F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png */,
+				52098A3312F9BC1E0094E7D0 /* UIButtonBarStop.png */,
+				52098A3412F9BC1E0094E7D0 /* UIButtonBarStop@2x.png */,
 				5292576212F9720600972A73 /* Icon-72.png */,
 				5292576312F9720600972A73 /* Icon@2x.png */,
 				5292575512F9708200972A73 /* Icon.png */,
@@ -323,6 +347,14 @@
 				5292575612F9708200972A73 /* Icon.png in Resources */,
 				5292576412F9720600972A73 /* Icon-72.png in Resources */,
 				5292576512F9720600972A73 /* Icon@2x.png in Resources */,
+				52098A3512F9BC1E0094E7D0 /* UIButtonBarArrowLeft.png in Resources */,
+				52098A3612F9BC1E0094E7D0 /* UIButtonBarArrowLeft@2x.png in Resources */,
+				52098A3712F9BC1E0094E7D0 /* UIButtonBarArrowRight.png in Resources */,
+				52098A3812F9BC1E0094E7D0 /* UIButtonBarArrowRight@2x.png in Resources */,
+				52098A3912F9BC1E0094E7D0 /* UIButtonBarRefresh.png in Resources */,
+				52098A3A12F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png in Resources */,
+				52098A3B12F9BC1E0094E7D0 /* UIButtonBarStop.png in Resources */,
+				52098A3C12F9BC1E0094E7D0 /* UIButtonBarStop@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -162,6 +162,7 @@
 	{
 		id = 2;
 		title = "How to win Foursquare friends and influence people.";
+		overview = "How to win Foursquare friends and influence people.";
 		actions = (
 			{
 				type = slides;
