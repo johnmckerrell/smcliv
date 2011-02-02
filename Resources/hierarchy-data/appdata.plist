@@ -3,7 +3,7 @@
 		searchSupported = YES;
 	};
 	appearance = {
-		navigationBarTint = "";
+		navigationBarStyle = UIBarStyleBlack;
 		"sectionIndexMinimumDisplayRowCount" = 10;
 	};
 	itemData = {
