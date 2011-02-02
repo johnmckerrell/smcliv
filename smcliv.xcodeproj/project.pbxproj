@@ -23,6 +23,7 @@
 		52098A3A12F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3212F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png */; };
 		52098A3B12F9BC1E0094E7D0 /* UIButtonBarStop.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3312F9BC1E0094E7D0 /* UIButtonBarStop.png */; };
 		52098A3C12F9BC1E0094E7D0 /* UIButtonBarStop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52098A3412F9BC1E0094E7D0 /* UIButtonBarStop@2x.png */; };
+		52098A6112F9DD3A0094E7D0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 52098A6012F9DD3A0094E7D0 /* Reachability.m */; };
 		5231FC2D12F9AB06007B29B3 /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5231FC2C12F9AB06007B29B3 /* TalkViewController.m */; };
 		5283CBF812F8748D00E6F977 /* HierarchyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBE912F8748D00E6F977 /* HierarchyViewController.m */; };
 		5283CBF912F8748D00E6F977 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5283CBEB12F8748D00E6F977 /* ItemDetailViewController.m */; };
@@ -36,7 +37,6 @@
 		5292554C12F87CCC00972A73 /* appdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554912F87CCC00972A73 /* appdata.plist */; };
 		5292554D12F87CCC00972A73 /* filtersdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554A12F87CCC00972A73 /* filtersdata.plist */; };
 		5292554E12F87CCC00972A73 /* maindata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554B12F87CCC00972A73 /* maindata.plist */; };
-		5292555112F929B900972A73 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292555012F929B900972A73 /* Reachability.m */; };
 		529255A712F92C5400972A73 /* HTTPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 529255A612F92C5400972A73 /* HTTPTask.m */; };
 		529255C712F9314000972A73 /* 106-sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255BC12F9314000972A73 /* 106-sliders.png */; };
 		529255C812F9314000972A73 /* 106-sliders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255BD12F9314000972A73 /* 106-sliders@2x.png */; };
@@ -76,6 +76,8 @@
 		52098A3212F9BC1E0094E7D0 /* UIButtonBarRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarRefresh@2x.png"; sourceTree = "<group>"; };
 		52098A3312F9BC1E0094E7D0 /* UIButtonBarStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarStop.png; sourceTree = "<group>"; };
 		52098A3412F9BC1E0094E7D0 /* UIButtonBarStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarStop@2x.png"; sourceTree = "<group>"; };
+		52098A5F12F9DD3A0094E7D0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		52098A6012F9DD3A0094E7D0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		5231FC2B12F9AB06007B29B3 /* TalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkViewController.h; sourceTree = "<group>"; };
 		5231FC2C12F9AB06007B29B3 /* TalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkViewController.m; sourceTree = "<group>"; };
 		5283CBE812F8748D00E6F977 /* HierarchyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyViewController.h; sourceTree = "<group>"; };
@@ -97,8 +99,6 @@
 		5292554912F87CCC00972A73 /* appdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = appdata.plist; sourceTree = "<group>"; };
 		5292554A12F87CCC00972A73 /* filtersdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = filtersdata.plist; sourceTree = "<group>"; };
 		5292554B12F87CCC00972A73 /* maindata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = maindata.plist; sourceTree = "<group>"; };
-		5292554F12F929B900972A73 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Examples/Reachability/Classes/Reachability.h; sourceTree = SOURCE_ROOT; };
-		5292555012F929B900972A73 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Examples/Reachability/Classes/Reachability.m; sourceTree = SOURCE_ROOT; };
 		529255A512F92C5400972A73 /* HTTPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPTask.h; sourceTree = "<group>"; };
 		529255A612F92C5400972A73 /* HTTPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPTask.m; sourceTree = "<group>"; };
 		529255BC12F9314000972A73 /* 106-sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders.png"; sourceTree = "<group>"; };
@@ -137,8 +137,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5292554F12F929B900972A73 /* Reachability.h */,
-				5292555012F929B900972A73 /* Reachability.m */,
 				1D3623240D0F684500981E51 /* smclivAppDelegate.h */,
 				1D3623250D0F684500981E51 /* smclivAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* smclivViewController.h */,
@@ -205,9 +203,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		52098A5E12F9DD3A0094E7D0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				52098A5F12F9DD3A0094E7D0 /* Reachability.h */,
+				52098A6012F9DD3A0094E7D0 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = lib/Reachability;
+			sourceTree = "<group>";
+		};
 		5283CBDC12F8747B00E6F977 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				52098A5E12F9DD3A0094E7D0 /* Reachability */,
 				5283CBE712F8748D00E6F977 /* HierarchyViewController */,
 			);
 			name = lib;
@@ -375,9 +384,9 @@
 				5283CBFC12F8748D00E6F977 /* ItemWebViewController.m in Sources */,
 				5283CBFE12F8748D00E6F977 /* ListViewController.m in Sources */,
 				5283CBFF12F8748D00E6F977 /* WebBrowserViewController.m in Sources */,
-				5292555112F929B900972A73 /* Reachability.m in Sources */,
 				529255A712F92C5400972A73 /* HTTPTask.m in Sources */,
 				5231FC2D12F9AB06007B29B3 /* TalkViewController.m in Sources */,
+				52098A6112F9DD3A0094E7D0 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
