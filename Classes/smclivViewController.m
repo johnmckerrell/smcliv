@@ -10,6 +10,7 @@
 
 #import "smclivAppDelegate.h"
 #import "HTTPTask.h"
+#import "HierarchyViewController.h"
 
 const CGFloat MAX_TIME_INTERVAL = 1800.00;
 
@@ -22,6 +23,7 @@ const CGFloat MAX_TIME_INTERVAL = 1800.00;
 @synthesize backgroundImage = _backgroundImage;
 @synthesize loadingLabel = _loadingLabel;
 @synthesize loadingActivity = _loadingActivity;
+@synthesize hierarchyController = _hierarchyController;
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -59,13 +61,31 @@ const CGFloat MAX_TIME_INTERVAL = 1800.00;
 }
 
 - (void)showHierarchyViewController {
+    self.hierarchyController = [[[HierarchyViewController alloc] initWithAppData:self.appdata filtersData:self.filtersdata mainData:self.maindata] autorelease];
+    [self.view insertSubview:self.hierarchyController.view belowSubview:self.backgroundImage];
+    
+    [self.hierarchyController viewWillAppear:YES];
+    
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.5];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(startupAnimationDone:finished:context:)];
     self.loadingLabel.alpha = 0.0;
     self.loadingActivity.alpha = 0.0;
     self.backgroundImage.alpha = 0.0;
     [UIView commitAnimations];
     
+}
+
+- (void)startupAnimationDone:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
+    [self.hierarchyController viewDidAppear:YES];
+    [self.backgroundImage removeFromSuperview];
+    [self.loadingLabel removeFromSuperview];
+    [self.loadingActivity stopAnimating];
+    [self.loadingActivity removeFromSuperview];
+    self.backgroundImage = nil;
+    self.loadingLabel = nil;
+    self.loadingActivity = nil;
 }
 
 
@@ -119,6 +139,21 @@ const CGFloat MAX_TIME_INTERVAL = 1800.00;
     }
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [self.hierarchyController viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [self.hierarchyController viewDidAppear:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [self.hierarchyController viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [self.hierarchyController viewDidDisappear:animated];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.

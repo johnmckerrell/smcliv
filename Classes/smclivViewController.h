@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class HTTPTask;
+@class HierarchyViewController;
 
 @interface smclivViewController : UIViewController {
     NSArray *_maindata;
@@ -18,6 +19,8 @@
     UIImageView *_backgroundImage;
     UILabel *_loadingLabel;
     UIActivityIndicatorView *_loadingActivity;
+    
+    HierarchyViewController *_hierarchyController;
 }
 
 @property (nonatomic, retain) NSArray *maindata;
@@ -29,8 +32,11 @@
 @property (nonatomic, retain) IBOutlet UILabel *loadingLabel;
 @property (nonatomic, retain) IBOutlet UIActivityIndicatorView *loadingActivity;
 
+@property (nonatomic, retain) HierarchyViewController *hierarchyController;
+
 - (void)updateTaskFinished:(HTTPTask*)task;
 - (void)showHierarchyViewController;
+- (void)startupAnimationDone:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context;
 
 @end
 
