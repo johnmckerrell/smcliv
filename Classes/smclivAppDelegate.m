@@ -13,6 +13,8 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize internetReach = _internetReach;
+@synthesize currentNetworkStatus = _currentNetworkStatus;
 
 
 #pragma mark -
@@ -21,7 +23,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-
+    [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+    self.internetReach = [Reachability reachabilityForInternetConnection];
+    [self.internetReach startNotifier];
+    self.currentNetworkStatus = [self.internetReach currentReachabilityStatus];
+    
 	// Set the view controller as the window's root view controller and display.
     if ([self.window respondsToSelector:@selector(setRootViewController:)]) {
         self.window.rootViewController = self.viewController;
@@ -35,6 +41,12 @@
     return YES;
 }
 
+- (void) reachabilityChanged: (NSNotification* )note
+{
+	Reachability* curReach = [note object];
+	NSParameterAssert([curReach isKindOfClass: [Reachability class]]);
+    self.currentNetworkStatus = [curReach currentReachabilityStatus];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     /*
@@ -49,6 +61,8 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
      */
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:[NSDate date] forKey:@"lastRun"];
 }
 
 
@@ -71,8 +85,20 @@
      Called when the application is about to terminate.
      See also applicationDidEnterBackground:.
      */
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setObject:[NSDate date] forKey:@"lastRun"];
 }
 
+#pragma mark -
+#pragma mark Application's Documents directory
+
+/**
+ Returns the path to the application's Documents directory.
+ */
+- (NSString *)applicationDocumentsDirectory {
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    return [paths lastObject];
+}
 
 #pragma mark -
 #pragma mark Memory management
@@ -87,6 +113,8 @@
 - (void)dealloc {
     self.viewController = nil;
     self.window = nil;
+    self.internetReach = nil;
+    
     [super dealloc];
 }
 

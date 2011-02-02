@@ -27,6 +27,21 @@
 		5292554C12F87CCC00972A73 /* appdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554912F87CCC00972A73 /* appdata.plist */; };
 		5292554D12F87CCC00972A73 /* filtersdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554A12F87CCC00972A73 /* filtersdata.plist */; };
 		5292554E12F87CCC00972A73 /* maindata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5292554B12F87CCC00972A73 /* maindata.plist */; };
+		5292555112F929B900972A73 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292555012F929B900972A73 /* Reachability.m */; };
+		529255A712F92C5400972A73 /* HTTPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 529255A612F92C5400972A73 /* HTTPTask.m */; };
+		529255C712F9314000972A73 /* 106-sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255BC12F9314000972A73 /* 106-sliders.png */; };
+		529255C812F9314000972A73 /* 106-sliders@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255BD12F9314000972A73 /* 106-sliders@2x.png */; };
+		529255C912F9314000972A73 /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255BE12F9314000972A73 /* 11-clock.png */; };
+		529255CA12F9314000972A73 /* 11-clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255BF12F9314000972A73 /* 11-clock@2x.png */; };
+		529255CB12F9314000972A73 /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255C012F9314000972A73 /* 111-user.png */; };
+		529255CC12F9314000972A73 /* 111-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255C112F9314000972A73 /* 111-user@2x.png */; };
+		529255CD12F9314000972A73 /* 137-presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255C212F9314000972A73 /* 137-presentation.png */; };
+		529255CE12F9314000972A73 /* 137-presentation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255C312F9314000972A73 /* 137-presentation@2x.png */; };
+		529255CF12F9314000972A73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255C412F9314000972A73 /* Default.png */; };
+		529255D012F9314000972A73 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 529255C512F9314000972A73 /* Default@2x.png */; };
+		529255D112F9314000972A73 /* massive-smc-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 529255C612F9314000972A73 /* massive-smc-logo.jpg */; };
+		529255EF12F9321700972A73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529255EE12F9321700972A73 /* SystemConfiguration.framework */; };
+		5292563C12F9340400972A73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5292563B12F9340400972A73 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +76,23 @@
 		5292554912F87CCC00972A73 /* appdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = appdata.plist; sourceTree = "<group>"; };
 		5292554A12F87CCC00972A73 /* filtersdata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = filtersdata.plist; sourceTree = "<group>"; };
 		5292554B12F87CCC00972A73 /* maindata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = maindata.plist; sourceTree = "<group>"; };
+		5292554F12F929B900972A73 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Examples/Reachability/Classes/Reachability.h; sourceTree = SOURCE_ROOT; };
+		5292555012F929B900972A73 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Examples/Reachability/Classes/Reachability.m; sourceTree = SOURCE_ROOT; };
+		529255A512F92C5400972A73 /* HTTPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPTask.h; sourceTree = "<group>"; };
+		529255A612F92C5400972A73 /* HTTPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPTask.m; sourceTree = "<group>"; };
+		529255BC12F9314000972A73 /* 106-sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders.png"; sourceTree = "<group>"; };
+		529255BD12F9314000972A73 /* 106-sliders@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "106-sliders@2x.png"; sourceTree = "<group>"; };
+		529255BE12F9314000972A73 /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
+		529255BF12F9314000972A73 /* 11-clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock@2x.png"; sourceTree = "<group>"; };
+		529255C012F9314000972A73 /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		529255C112F9314000972A73 /* 111-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user@2x.png"; sourceTree = "<group>"; };
+		529255C212F9314000972A73 /* 137-presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "137-presentation.png"; sourceTree = "<group>"; };
+		529255C312F9314000972A73 /* 137-presentation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "137-presentation@2x.png"; sourceTree = "<group>"; };
+		529255C412F9314000972A73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		529255C512F9314000972A73 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		529255C612F9314000972A73 /* massive-smc-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "massive-smc-logo.jpg"; sourceTree = "<group>"; };
+		529255EE12F9321700972A73 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5292563912F933FD00972A73 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* smcliv-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "smcliv-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +104,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				529255EF12F9321700972A73 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +114,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5292554F12F929B900972A73 /* Reachability.h */,
+				5292555012F929B900972A73 /* Reachability.m */,
 				1D3623240D0F684500981E51 /* smclivAppDelegate.h */,
 				1D3623250D0F684500981E51 /* smclivAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* smclivViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* smclivViewController.m */,
+				529255A512F92C5400972A73 /* HTTPTask.h */,
+				529255A612F92C5400972A73 /* HTTPTask.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -122,10 +159,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				529255BB12F9314000972A73 /* Images */,
 				5292554812F87CCC00972A73 /* hierarchy-data */,
 				2899E5210DE3E06400AC0155 /* smclivViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* smcliv-Info.plist */,
+				5292563B12F9340400972A73 /* Localizable.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -133,6 +172,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				529255EE12F9321700972A73 /* SystemConfiguration.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -181,6 +221,25 @@
 			);
 			name = "hierarchy-data";
 			path = "Resources/hierarchy-data";
+			sourceTree = "<group>";
+		};
+		529255BB12F9314000972A73 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				529255BC12F9314000972A73 /* 106-sliders.png */,
+				529255BD12F9314000972A73 /* 106-sliders@2x.png */,
+				529255BE12F9314000972A73 /* 11-clock.png */,
+				529255BF12F9314000972A73 /* 11-clock@2x.png */,
+				529255C012F9314000972A73 /* 111-user.png */,
+				529255C112F9314000972A73 /* 111-user@2x.png */,
+				529255C212F9314000972A73 /* 137-presentation.png */,
+				529255C312F9314000972A73 /* 137-presentation@2x.png */,
+				529255C412F9314000972A73 /* Default.png */,
+				529255C512F9314000972A73 /* Default@2x.png */,
+				529255C612F9314000972A73 /* massive-smc-logo.jpg */,
+			);
+			name = Images;
+			path = Resources/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +298,18 @@
 				5292554C12F87CCC00972A73 /* appdata.plist in Resources */,
 				5292554D12F87CCC00972A73 /* filtersdata.plist in Resources */,
 				5292554E12F87CCC00972A73 /* maindata.plist in Resources */,
+				529255C712F9314000972A73 /* 106-sliders.png in Resources */,
+				529255C812F9314000972A73 /* 106-sliders@2x.png in Resources */,
+				529255C912F9314000972A73 /* 11-clock.png in Resources */,
+				529255CA12F9314000972A73 /* 11-clock@2x.png in Resources */,
+				529255CB12F9314000972A73 /* 111-user.png in Resources */,
+				529255CC12F9314000972A73 /* 111-user@2x.png in Resources */,
+				529255CD12F9314000972A73 /* 137-presentation.png in Resources */,
+				529255CE12F9314000972A73 /* 137-presentation@2x.png in Resources */,
+				529255CF12F9314000972A73 /* Default.png in Resources */,
+				529255D012F9314000972A73 /* Default@2x.png in Resources */,
+				529255D112F9314000972A73 /* massive-smc-logo.jpg in Resources */,
+				5292563C12F9340400972A73 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +330,23 @@
 				5283CBFC12F8748D00E6F977 /* ItemWebViewController.m in Sources */,
 				5283CBFE12F8748D00E6F977 /* ListViewController.m in Sources */,
 				5283CBFF12F8748D00E6F977 /* WebBrowserViewController.m in Sources */,
+				5292555112F929B900972A73 /* Reachability.m in Sources */,
+				529255A712F92C5400972A73 /* HTTPTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5292563B12F9340400972A73 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5292563912F933FD00972A73 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {

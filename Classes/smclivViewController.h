@@ -8,9 +8,29 @@
 
 #import <UIKit/UIKit.h>
 
-@interface smclivViewController : UIViewController {
+@class HTTPTask;
 
+@interface smclivViewController : UIViewController {
+    NSArray *_maindata;
+    NSDictionary *_appdata, *_filtersdata;
+    HTTPTask *_updateTask;
+    
+    UIImageView *_backgroundImage;
+    UILabel *_loadingLabel;
+    UIActivityIndicatorView *_loadingActivity;
 }
+
+@property (nonatomic, retain) NSArray *maindata;
+@property (nonatomic, retain) NSDictionary *appdata;
+@property (nonatomic, retain) NSDictionary *filtersdata;
+@property (nonatomic, retain) HTTPTask *updateTask;
+
+@property (nonatomic, retain) IBOutlet UIImageView *backgroundImage;
+@property (nonatomic, retain) IBOutlet UILabel *loadingLabel;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView *loadingActivity;
+
+- (void)updateTaskFinished:(HTTPTask*)task;
+- (void)showHierarchyViewController;
 
 @end
 
