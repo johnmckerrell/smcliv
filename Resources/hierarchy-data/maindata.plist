@@ -124,7 +124,7 @@
 	{
 		id = 1;
 		title = "Data Visualisation";
-		overview = "Alison Gow introduced some of the free data visualisation tools available online and provided real life examples of how to use them. She showew us that you don\U2019t need lots of words to make a point or tell a story.";
+		overview = "Alison Gow introduced some of the free data visualisation tools available online and provided real life examples of how to use them. She showed us that you don\U2019t need lots of words to make a point or tell a story.";
 		bio = "Editor, skier, biker; internet and caffeine obsessive.";
 		actions = (
 			{
