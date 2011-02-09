@@ -11,3 +11,8 @@
 "TALK_OVERVIEW" = "Overview";
 "TALK_BIO" = "Speaker Bio";
 "TALK_ACTIONS" = "Actions";
+"TALK_VIDEO_WIFI_ERROR_TITLE" = "No WiFi";
+"TALK_VIDEO_WIFI_ERROR_MESSAGE" = "You must be connected to WiFi to view this content.";
+"TALK_NO_INTERNET_ERROR_TITLE" = "No Internet Connection";
+"TALK_NO_INTERNET_ERROR_MESSAGE" = "You must be connected to the internet to view this content.";
+"CLOSE" = "Close";

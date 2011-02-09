@@ -9,7 +9,7 @@
 #import "TalkViewController.h"
 
 #import "HierarchyViewController.h"
-
+#import "smclivAppDelegate.h"
 
 @implementation TalkViewController
 
@@ -244,16 +244,34 @@
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
     */
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     if (self.talkActions && indexPath.section == (self.numSections - 1)) {
+        smclivAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
         NSDictionary *action = [self.talkActions objectAtIndex:indexPath.row];
-        NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[action objectForKey:@"url"]]];
-        
-        [self.hierarchyController loadURLRequestInLocalBrowser:request];
-        
-        [request release]; request = nil;
+        if ([@"video" isEqualToString:[action objectForKey:@"type"]] && appDelegate.currentNetworkStatus != ReachableViaWiFi) {
+            [[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"TALK_VIDEO_WIFI_ERROR_TITLE",@"")
+                                         message:NSLocalizedString(@"TALK_VIDEO_WIFI_ERROR_MESSAGE",@"")
+                                        delegate:self
+                               cancelButtonTitle:NSLocalizedString(@"CLOSE",@"")
+                               otherButtonTitles:nil] autorelease] show];
+            [cell setSelected:NO animated:YES];
+        } else if (appDelegate.currentNetworkStatus == NotReachable) {
+            [[[[UIAlertView alloc] initWithTitle:NSLocalizedString(@"TALK_NO_INTERNET_ERROR_TITLE",@"")
+                                         message:NSLocalizedString(@"TALK_NO_INTERNET_ERROR_MESSAGE",@"")
+                                        delegate:self
+                               cancelButtonTitle:NSLocalizedString(@"CLOSE",@"")
+                               otherButtonTitles:nil] autorelease] show];
+            [cell setSelected:NO animated:YES];
+        } else {
+            NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[action objectForKey:@"url"]]];
+            
+            [self.hierarchyController loadURLRequestInLocalBrowser:request];
+            
+            [request release]; request = nil;
+        }
+
         
     }        
-    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     NSLog(@"cell.frame=%@", NSStringFromCGRect(cell.frame));
     NSLog(@"cell.textLabel.frame=%@", NSStringFromCGRect(cell.textLabel.frame));
 }
