@@ -1,6 +1,253 @@
 (
 	{
-		id = 4;
+		id = 14;
+		title = REZZ;
+		overview = "Blurring the lines of the real and virtual worlds through social media and photography.";
+		bio = "Peter Carr: Photographer. Gamer. Geek. Leica/Apple fanboy.";
+		actions = (
+			{
+				url = "http://www.petecarr.net";
+				title = "Speaker's Website";
+				type = link;
+			},
+			{
+				url = "http://www.rezzd.com/";
+				title = REZZED;
+				type = link;
+			},
+			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/petecarr/rezz-at-smcliv";
+			},
+			{
+				url = "http://twitter.com/petemc";
+				title = "Speaker's Twitter";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "Peter Carr";
+			event = "February 2011";
+			topic = (
+				Photography,
+				Maps,
+			);
+		};
+	},
+	{
+		id = 13;
+		title = "Life Cycle of an iPhone App";
+		overview = "A friendly and non-technical overview of the trials and tribulations that go into developing and releasing an iPhone app.";
+		bio = "Entrepreneur and freelance iPhone, Rails and JavaScript software developer in Liverpool whose list of apps stretches longer than your arm.";
+		actions = (
+			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/johnmckerrell/life-cycle-of-an-iphone-app";
+			},
+			{
+				url = "http://johnmckerrell.com/";
+				title = "Speaker's Website";
+				type = link;
+			},
+			{
+				url = "http://twitter.com/mcknut";
+				title = "Speaker's Twitter";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "John McKerrell";
+			event = "February 2011";
+			topic = (
+				iPhone,
+				"Mobile App Development",
+			);
+		};
+	},
+	{
+		id = 12;
+		title = "Reverse the Wave";
+		overview = "Reversing the Wave\" is a 'Subvertisement' by American film maker Deena DeNaro, that brings Nokia's brand identity closer in alignment to its actions. In the style of Ad-Busters Magazine and the Yes Men it offers \"Brand Identity Correction\" for a corporation who has put profits above privacy and basic human rights.";
+		bio = "Deena DeNaro is an artist and international media professional that has over 10 years experience as a camera person in film production, music videos and TV commercials for blue-chip clients such as Visa, Fed- Ex, Nike Toyota and Sprite.";
+		actions = (
+			{
+				url = "http://reversethewave.blogspot.com/";
+				title = "Reverse the Wave";
+				type = link;
+			},
+			{
+				type = video;
+				title = Video;
+				url = "http://www.defnetmedia.com/video/DeenahDenaro_SMC.mp4";
+			},
+			{
+				url = "http://twitter.com/dna_ddb";
+				title = "Speaker's Twitter";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "Deena DeNaro";
+			event = "December 2010";
+			topic = (
+				Maps,
+				"Arts & Culture",
+			);
+		};
+	},
+	{
+		id = 11;
+		title = "The History of Liverpool Blogs";
+		overview = "Beginning with its influences in the orginal UK blogging scene and later Manchester and his own blogging experience and will explain the mechanics behind the connected Twitter feed.";
+		bio = "Stuart also edits Liverpool Blogs and writes The Hamlet Weblog. He's currently living in Liverpool. ";
+		actions = (
+			{
+				type = link;
+				title = "Speaker's Website";
+				url = "http://feelinglistless.blogspot.com/";
+			},
+			{
+				type = video;
+				title = Video;
+				url = "http://www.defnetmedia.com/video/StuartBurns_smcliv.mp4";
+			},
+			{
+				url = "http://twitter.com/feelinglistless";
+				title = "Speaker's Twitter";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "Stuart Ian Burns";
+			event = "December 2010";
+			topic = (
+				Blogging,
+				Liverpool,
+			);
+		};
+	},
+	{
+		id = 10;
+		title = "Cool Stuff What I\U2019ve Seen";
+		overview = " \U201cAs the last Social Media Cafe Liverpool before Christmas, I know you won\U2019t be interested in heavy content strategies or, well, thinking!  Instead I\U2019m going to show you some cool stuff that I\U2019ve come across over the last few weeks, months and years.  Hopefully some of it will be new to you!\U201d";
+		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
+		actions = (
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/MikeNolan";
+			},
+			{
+				url = "http://www.michaelnolan.co.uk/";
+				title = "Speaker's Website";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "Mike Nolan";
+			event = "December 2010";
+			topic = (
+				"Cool Stuff",
+			);
+		};
+	},
+	{
+		id = 9;
+		title = "Feng Office";
+		overview = "Adeyinka Olushonde talked about his work on Liverpool Arts Regeneration Consortium (LARC)'s online interactive map designed to bring together arts and cultural organisations in Merseyside. ";
+		bio = "Adeyinka Olushonde Lee was born in Lagos and grew up in foster care in Essex before coming to study at the Liverpool Institute for Performing Arts 10 years ago, but his sentiments are pure Scouse.";
+		actions = (
+			{
+				type = link;
+				title = "LARC Website";
+				url = "http://www.larc.uk.com/";
+			},
+			{
+				url = "http://uk.linkedin.com/pub/adeyinka-olushonde/a/93a/164";
+				title = "Speaker's LinkedIn";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "Adeyinka Olushonde";
+			event = "October 2010";
+			topic = (
+				Maps,
+				"Arts & Culture",
+			);
+		};
+	},
+	{
+		id = 8;
+		title = "Fab Collective";
+		overview = "A Liverpool based photography collective enlighten us with what they gained by collaborating and how Social Media is developing for the world of photography.";
+		bio = "Peter Goodbody - Liverpool photographer. AKA Mobilevirgin in some places";
+		actions = (
+			{
+				url = "http://www.fabcollective.com/";
+				title = "Fab Collective Website";
+				type = link;
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/p3dro";
+			},
+			{
+				url = "http://www.p3dro.co.uk/";
+				title = "Speaker's Website";
+				type = link;
+			},
+			{
+				url = "http://www.defnetmedia.com/pods/socialmediacafe/Social_media_cafe_liverpool_peter_goodbody.mp3";
+				title = "Talk Audio";
+				type = video;
+			},
+		);
+		properties = {
+			speaker = "Peter Goodbody";
+			event = "October 2010";
+			topic = (
+				Photography,
+			);
+		};
+	},
+	{
+		id = 7;
+		title = "Liverpool Biennial";
+		overview = "Antony Pickthall from the Liverpool Biennial guided us through the story of putting together a social media campaign for an international event, the perils and pitfalls but the successes too.";
+		bio = "arts marketing professional, playwright and comedian.";
+		actions = (
+			{
+				type = link;
+				title = "Biennial Website";
+				url = "http://www.biennial.com/";
+			},
+			{
+				type = twitter;
+				title = "Speaker's Twitter";
+				url = "http://twitter.com/antonpick";
+			},
+			{
+				url = "http://www.antonpick.com/";
+				title = "Speaker's Website";
+				type = link;
+			},
+		);
+		properties = {
+			speaker = "Anthony Pickthall";
+			event = "October 2010";
+			topic = (
+				"Arts & Culture",
+				Campaigns,
+				Events,
+			);
+		};
+	},
+	{
+		id = 6;
 		title = "Handling Social Media Overload";
 		overview = "Ever find yourself struggling to cope with too much information on the superinterwebs? Find out how to tame the social media beast with Michael\U2019s top tips for handling social media overload!";
 		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
@@ -17,7 +264,7 @@
 			},
 			{
 				url = "http://www.michaelnolan.co.uk/";
-				title = Homepage;
+				title = "Speaker's Website";
 				type = link;
 			},
 		);
@@ -39,7 +286,7 @@
 			{
 				type = slides;
 				title = Slides;
-				url = "http://www.slideshare.net/mikenolan/handling-social-media-overload";
+				url = "http://www.slideshare.net/beej777/publish-and-dont-be-damned-social-media-and-the-law";
 			},
 			{
 				type = twitter;
@@ -48,7 +295,7 @@
 			},
 			{
 				url = "http://www.peninsulawyer.com/";
-				title = Homepage;
+				title = "Speaker's Website";
 				type = link;
 			},
 		);
@@ -74,7 +321,7 @@
 			},
 			{
 				url = "http://goodGNUs.org/";
-				title = Homepage;
+				title = "Speaker's Website";
 				type = link;
 			},
 		);
@@ -104,7 +351,7 @@
 			},
 			{
 				url = "http://www.interconnectit.com/";
-				title = Homepage;
+				title = "Speaker's Website";
 				type = link;
 			},
 			{
@@ -139,7 +386,7 @@
 			},
 			{
 				url = "http://headlinesanddedlines.blogspot.com/";
-				title = Homepage;
+				title = "Speaker's Website";
 				type = link;
 			},
 			{
@@ -176,7 +423,7 @@
 			},
 			{
 				url = "http://www.technicalfault.net/";
-				title = Homepage;
+				title = "Speaker's Website";
 				type = link;
 			},
 			{
