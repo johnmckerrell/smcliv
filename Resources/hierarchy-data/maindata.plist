@@ -186,6 +186,11 @@
 		bio = "Peter Goodbody - Liverpool photographer. AKA Mobilevirgin in some places";
 		actions = (
 			{
+				type = slides;
+				title = Slides;
+				url = "http://www.slideshare.net/petergoodbody/fab-collective";
+			},
+			{
 				url = "http://www.fabcollective.com/";
 				title = "Fab Collective Website";
 				type = link;
