@@ -1,408 +1,417 @@
 (
 	{
-		id = 14;
-		title = REZZ;
-		overview = "Blurring the lines of the real and virtual worlds through social media and photography.";
-		bio = "Peter Carr: Photographer. Gamer. Geek. Leica/Apple fanboy.";
 		actions = (
 			{
-				url = "http://www.petecarr.net";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.petecarr.net";
 			},
 			{
-				url = "http://www.rezzd.com/";
 				title = REZZED;
 				type = link;
+				url = "http://www.rezzd.com/";
 			},
 			{
-				type = slides;
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/petecarr/rezz-at-smcliv";
 			},
 			{
-				url = "http://twitter.com/petemc";
 				title = "Speaker's Twitter";
 				type = link;
+				url = "http://twitter.com/petemc";
+			},
+			{
+				title = Video;
+				type = video;
+				url = "http://www.defnetmedia.com/video/Social_media_cafe_pete_carr.mp4";
 			},
 		);
+		bio = "Peter Carr: Photographer. Gamer. Geek. Leica/Apple fanboy.";
+		id = 14;
+		overview = "Blurring the lines of the real and virtual worlds through social media and photography.";
 		properties = {
-			speaker = "Peter Carr";
 			event = "February 2011";
+			speaker = "Peter Carr";
 			topic = (
 				Photography,
 				Maps,
 			);
 		};
+		title = REZZ;
 	},
 	{
-		id = 13;
-		title = "Life Cycle of an iPhone App";
-		overview = "A friendly and non-technical overview of the trials and tribulations that go into developing and releasing an iPhone app.";
-		bio = "Entrepreneur and freelance iPhone, Rails and JavaScript software developer in Liverpool whose list of apps stretches longer than your arm.";
 		actions = (
 			{
-				type = slides;
+				title = Video;
+				type = video;
+				url = "http://www.defnetmedia.com/video/Social_media_cafe_john_mckerrell.mp4";
+			},
+			{
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/johnmckerrell/life-cycle-of-an-iphone-app";
 			},
 			{
-				url = "http://johnmckerrell.com/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://johnmckerrell.com/";
 			},
 			{
-				url = "http://twitter.com/mcknut";
 				title = "Speaker's Twitter";
 				type = link;
+				url = "http://twitter.com/mcknut";
 			},
 		);
+		bio = "Entrepreneur and freelance iPhone, Rails and JavaScript software developer in Liverpool whose list of apps stretches longer than your arm.";
+		id = 13;
+		overview = "A friendly and non-technical overview of the trials and tribulations that go into developing and releasing an iPhone app.";
 		properties = {
-			speaker = "John McKerrell";
 			event = "February 2011";
+			speaker = "John McKerrell";
 			topic = (
 				iPhone,
 				"Mobile App Development",
 			);
 		};
+		title = "Life Cycle of an iPhone App";
 	},
 	{
-		id = 12;
-		title = "Reverse the Wave";
-		overview = "Reversing the Wave\" is a 'Subvertisement' by American film maker Deena DeNaro, that brings Nokia's brand identity closer in alignment to its actions. In the style of Ad-Busters Magazine and the Yes Men it offers \"Brand Identity Correction\" for a corporation who has put profits above privacy and basic human rights.";
-		bio = "Deena DeNaro is an artist and international media professional that has over 10 years experience as a camera person in film production, music videos and TV commercials for blue-chip clients such as Visa, Fed- Ex, Nike Toyota and Sprite.";
 		actions = (
 			{
-				url = "http://reversethewave.blogspot.com/";
 				title = "Reverse the Wave";
 				type = link;
+				url = "http://reversethewave.blogspot.com/";
 			},
 			{
-				type = video;
 				title = Video;
+				type = video;
 				url = "http://www.defnetmedia.com/video/DeenahDenaro_SMC.mp4";
 			},
 			{
-				url = "http://twitter.com/dna_ddb";
 				title = "Speaker's Twitter";
 				type = link;
+				url = "http://twitter.com/dna_ddb";
 			},
 		);
+		bio = "Deena DeNaro is an artist and international media professional that has over 10 years experience as a camera person in film production, music videos and TV commercials for blue-chip clients such as Visa, Fed- Ex, Nike Toyota and Sprite.";
+		id = 12;
+		overview = "Reversing the Wave\" is a 'Subvertisement' by American film maker Deena DeNaro, that brings Nokia's brand identity closer in alignment to its actions. In the style of Ad-Busters Magazine and the Yes Men it offers \"Brand Identity Correction\" for a corporation who has put profits above privacy and basic human rights.";
 		properties = {
-			speaker = "Deena DeNaro";
 			event = "December 2010";
+			speaker = "Deena DeNaro";
 			topic = (
 				Maps,
 				"Arts & Culture",
 			);
 		};
+		title = "Reverse the Wave";
 	},
 	{
-		id = 11;
-		title = "The History of Liverpool Blogs";
-		overview = "Beginning with its influences in the orginal UK blogging scene and later Manchester and his own blogging experience and will explain the mechanics behind the connected Twitter feed.";
-		bio = "Stuart also edits Liverpool Blogs and writes The Hamlet Weblog. He's currently living in Liverpool. ";
 		actions = (
 			{
-				type = link;
 				title = "Speaker's Website";
+				type = link;
 				url = "http://feelinglistless.blogspot.com/";
 			},
 			{
-				type = video;
 				title = Video;
+				type = video;
 				url = "http://www.defnetmedia.com/video/StuartBurns_smcliv.mp4";
 			},
 			{
-				url = "http://twitter.com/feelinglistless";
 				title = "Speaker's Twitter";
 				type = link;
+				url = "http://twitter.com/feelinglistless";
 			},
 		);
+		bio = "Stuart also edits Liverpool Blogs and writes The Hamlet Weblog. He's currently living in Liverpool. ";
+		id = 11;
+		overview = "Beginning with its influences in the orginal UK blogging scene and later Manchester and his own blogging experience and will explain the mechanics behind the connected Twitter feed.";
 		properties = {
-			speaker = "Stuart Ian Burns";
 			event = "December 2010";
+			speaker = "Stuart Ian Burns";
 			topic = (
 				Blogging,
 				Liverpool,
 			);
 		};
+		title = "The History of Liverpool Blogs";
 	},
 	{
-		id = 10;
-		title = "Cool Stuff What I\U2019ve Seen";
-		overview = " \U201cAs the last Social Media Cafe Liverpool before Christmas, I know you won\U2019t be interested in heavy content strategies or, well, thinking!  Instead I\U2019m going to show you some cool stuff that I\U2019ve come across over the last few weeks, months and years.  Hopefully some of it will be new to you!\U201d";
-		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
 		actions = (
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/MikeNolan";
 			},
 			{
-				url = "http://www.michaelnolan.co.uk/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.michaelnolan.co.uk/";
 			},
 		);
+		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
+		id = 10;
+		overview = " \U201cAs the last Social Media Cafe Liverpool before Christmas, I know you won\U2019t be interested in heavy content strategies or, well, thinking!  Instead I\U2019m going to show you some cool stuff that I\U2019ve come across over the last few weeks, months and years.  Hopefully some of it will be new to you!\U201d";
 		properties = {
-			speaker = "Mike Nolan";
 			event = "December 2010";
+			speaker = "Mike Nolan";
 			topic = (
 				"Cool Stuff",
 			);
 		};
+		title = "Cool Stuff What I\U2019ve Seen";
 	},
 	{
-		id = 9;
-		title = "Feng Office";
-		overview = "Adeyinka Olushonde talked about his work on Liverpool Arts Regeneration Consortium (LARC)'s online interactive map designed to bring together arts and cultural organisations in Merseyside. ";
-		bio = "Adeyinka Olushonde Lee was born in Lagos and grew up in foster care in Essex before coming to study at the Liverpool Institute for Performing Arts 10 years ago, but his sentiments are pure Scouse.";
 		actions = (
 			{
-				type = link;
 				title = "LARC Website";
+				type = link;
 				url = "http://www.larc.uk.com/";
 			},
 			{
-				url = "http://uk.linkedin.com/pub/adeyinka-olushonde/a/93a/164";
 				title = "Speaker's LinkedIn";
 				type = link;
+				url = "http://uk.linkedin.com/pub/adeyinka-olushonde/a/93a/164";
 			},
 		);
+		bio = "Adeyinka Olushonde Lee was born in Lagos and grew up in foster care in Essex before coming to study at the Liverpool Institute for Performing Arts 10 years ago, but his sentiments are pure Scouse.";
+		id = 9;
+		overview = "Adeyinka Olushonde talked about his work on Liverpool Arts Regeneration Consortium (LARC)'s online interactive map designed to bring together arts and cultural organisations in Merseyside. ";
 		properties = {
-			speaker = "Adeyinka Olushonde";
 			event = "October 2010";
+			speaker = "Adeyinka Olushonde";
 			topic = (
 				Maps,
 				"Arts & Culture",
 			);
 		};
+		title = "Feng Office";
 	},
 	{
-		id = 8;
-		title = "Fab Collective";
-		overview = "A Liverpool based photography collective enlighten us with what they gained by collaborating and how Social Media is developing for the world of photography.";
-		bio = "Peter Goodbody - Liverpool photographer. AKA Mobilevirgin in some places";
 		actions = (
 			{
-				type = slides;
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/petergoodbody/fab-collective";
 			},
 			{
-				url = "http://www.fabcollective.com/";
 				title = "Fab Collective Website";
 				type = link;
+				url = "http://www.fabcollective.com/";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/p3dro";
 			},
 			{
-				url = "http://www.p3dro.co.uk/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.p3dro.co.uk/";
 			},
 			{
-				url = "http://www.defnetmedia.com/pods/socialmediacafe/Social_media_cafe_liverpool_peter_goodbody.mp3";
 				title = "Talk Audio";
 				type = video;
+				url = "http://www.defnetmedia.com/pods/socialmediacafe/Social_media_cafe_liverpool_peter_goodbody.mp3";
 			},
 		);
+		bio = "Peter Goodbody - Liverpool photographer. AKA Mobilevirgin in some places";
+		id = 8;
+		overview = "A Liverpool based photography collective enlighten us with what they gained by collaborating and how Social Media is developing for the world of photography.";
 		properties = {
-			speaker = "Peter Goodbody";
 			event = "October 2010";
+			speaker = "Peter Goodbody";
 			topic = (
 				Photography,
 			);
 		};
+		title = "Fab Collective";
 	},
 	{
-		id = 7;
-		title = "Liverpool Biennial";
-		overview = "Antony Pickthall from the Liverpool Biennial guided us through the story of putting together a social media campaign for an international event, the perils and pitfalls but the successes too.";
-		bio = "arts marketing professional, playwright and comedian.";
 		actions = (
 			{
-				type = link;
 				title = "Biennial Website";
+				type = link;
 				url = "http://www.biennial.com/";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/antonpick";
 			},
 			{
-				url = "http://www.antonpick.com/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.antonpick.com/";
 			},
 		);
+		bio = "arts marketing professional, playwright and comedian.";
+		id = 7;
+		overview = "Antony Pickthall from the Liverpool Biennial guided us through the story of putting together a social media campaign for an international event, the perils and pitfalls but the successes too.";
 		properties = {
-			speaker = "Anthony Pickthall";
 			event = "October 2010";
+			speaker = "Anthony Pickthall";
 			topic = (
 				"Arts & Culture",
 				Campaigns,
 				Events,
 			);
 		};
+		title = "Liverpool Biennial";
 	},
 	{
-		id = 6;
-		title = "Handling Social Media Overload";
-		overview = "Ever find yourself struggling to cope with too much information on the superinterwebs? Find out how to tame the social media beast with Michael\U2019s top tips for handling social media overload!";
-		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
 		actions = (
 			{
-				type = slides;
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/mikenolan/handling-social-media-overload";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/MikeNolan";
 			},
 			{
-				url = "http://www.michaelnolan.co.uk/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.michaelnolan.co.uk/";
 			},
 		);
+		bio = "Michael Nolan is Head of Web Services at Edge Hill University in Ormskirk which means managing websites, portals, new social media initiatives and attending lots of meetings. ";
+		id = 6;
+		overview = "Ever find yourself struggling to cope with too much information on the superinterwebs? Find out how to tame the social media beast with Michael\U2019s top tips for handling social media overload!";
 		properties = {
-			speaker = "Mike Nolan";
 			event = "August 2010";
+			speaker = "Mike Nolan";
 			topic = (
 				Copyright,
 				Law,
 			);
 		};
+		title = "Handling Social Media Overload";
 	},
 	{
-		id = 5;
-		title = "Publish and (don\U2019t) be damned";
-		overview = "After a brilliant talk about law and Social Media at Ignite last Thursday, we are delighted that Jon will enlighten us on this most thorny of subjects.";
-		bio = "Jon Bloor is head of corporate and commercial law at Lees Solicitors LLP (and social media enthusiast)";
 		actions = (
 			{
-				type = slides;
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/beej777/publish-and-dont-be-damned-social-media-and-the-law";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/beej777";
 			},
 			{
-				url = "http://www.peninsulawyer.com/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.peninsulawyer.com/";
 			},
 		);
+		bio = "Jon Bloor is head of corporate and commercial law at Lees Solicitors LLP (and social media enthusiast)";
+		id = 5;
+		overview = "After a brilliant talk about law and Social Media at Ignite last Thursday, we are delighted that Jon will enlighten us on this most thorny of subjects.";
 		properties = {
-			speaker = "Jon Bloor";
 			event = "August 2010";
+			speaker = "Jon Bloor";
 			topic = (
 				Copyright,
 				Law,
 			);
 		};
+		title = "Publish and (don\U2019t) be damned";
 	},
 	{
-		id = 4;
-		title = "Federated, Open Social Networks ";
-		overview = "Richard Smedley presents a look at how to keep control of your privacy and contacts with the next generation of open social media tools.";
-		bio = "Richard Smedley teaches community groups how to combine accessible websites and a manageable social media campaign in a sustainable IT strategy.";
 		actions = (
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/richardsmedley";
 			},
 			{
-				url = "http://goodGNUs.org/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://goodGNUs.org/";
 			},
 		);
+		bio = "Richard Smedley teaches community groups how to combine accessible websites and a manageable social media campaign in a sustainable IT strategy.";
+		id = 4;
+		overview = "Richard Smedley presents a look at how to keep control of your privacy and contacts with the next generation of open social media tools.";
 		properties = {
-			speaker = "Richard Smedley";
 			event = "August 2010";
+			speaker = "Richard Smedley";
 			topic = (
 				Freedom,
 			);
 		};
+		title = "Federated, Open Social Networks ";
 	},
 	{
-		id = 3;
-		title = "Social Media & Work";
-		overview = "Dave Coveney will talk about how social media can be used in a business context, with examples from his own experience over nearly twenty years of social networking.";
-		bio = "Dave is a developer by trade but nowadays more a director (a polite way of saying the guy who does most things other than any proper coding work) and runs Interconnect IT. Interconnect IT is one of the country\U2019s top WordPress consultancies with sites like My Telegraph and Metro International\U2019s blogging network running lots of their code.";
 		actions = (
 			{
-				type = link;
 				title = "Prezi Presentation";
+				type = link;
 				url = "http://prezi.com/zv-kxprstdfx/work-social-media/";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/davecoveney";
 			},
 			{
-				url = "http://www.interconnectit.com/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.interconnectit.com/";
 			},
 			{
-				type = video;
 				title = Video;
+				type = video;
 				url = "http://blip.tv/file/get/Franticorang-WorkSocialMediaDaveCoveney581.m4v";
 			},
 		);
+		bio = "Dave is a developer by trade but nowadays more a director (a polite way of saying the guy who does most things other than any proper coding work) and runs Interconnect IT. Interconnect IT is one of the country\U2019s top WordPress consultancies with sites like My Telegraph and Metro International\U2019s blogging network running lots of their code.";
+		id = 3;
+		overview = "Dave Coveney will talk about how social media can be used in a business context, with examples from his own experience over nearly twenty years of social networking.";
 		properties = {
-			speaker = "Dave Coveney";
 			event = "June 2010";
+			speaker = "Dave Coveney";
 			topic = (
 				Business,
 			);
 		};
+		title = "Social Media & Work";
 	},
 	{
-		id = 1;
-		title = "Data Visualisation";
-		overview = "Alison Gow introduced some of the free data visualisation tools available online and provided real life examples of how to use them. She showed us that you don\U2019t need lots of words to make a point or tell a story.";
-		bio = "Editor, skier, biker; internet and caffeine obsessive.";
 		actions = (
 			{
-				type = slides;
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/alisongow/smc-data-visualisation";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/alisongow";
 			},
 			{
-				url = "http://headlinesanddedlines.blogspot.com/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://headlinesanddedlines.blogspot.com/";
 			},
 			{
-				type = video;
 				title = Video;
+				type = video;
 				url = "http://blip.tv/file/get/Franticorang-DataTheArtOfStorytellingAlisonGow969.m4v";
 			},
 		);
+		bio = "Editor, skier, biker; internet and caffeine obsessive.";
+		id = 1;
+		overview = "Alison Gow introduced some of the free data visualisation tools available online and provided real life examples of how to use them. She showed us that you don\U2019t need lots of words to make a point or tell a story.";
 		properties = {
-			speaker = "Alison Gow";
 			event = "June 2010";
+			speaker = "Alison Gow";
 			topic = (
 				Data,
 				Visualisation,
@@ -410,41 +419,42 @@
 				Infographics,
 			);
 		};
+		title = "Data Visualisation";
 	},
 	{
-		id = 2;
-		title = "How to win Foursquare friends and influence people.";
-		overview = "How to win Foursquare friends and influence people.";
 		actions = (
 			{
-				type = slides;
 				title = Slides;
+				type = slides;
 				url = "http://www.slideshare.net/technicalfault/how-to-win-foursquare-friends-and-influence-people";
 			},
 			{
-				type = twitter;
 				title = "Speaker's Twitter";
+				type = twitter;
 				url = "http://twitter.com/technicalfault";
 			},
 			{
-				url = "http://www.technicalfault.net/";
 				title = "Speaker's Website";
 				type = link;
+				url = "http://www.technicalfault.net/";
 			},
 			{
-				type = video;
 				title = Video;
+				type = video;
 				url = "http://blip.tv/file/get/Franticorang-Josh821.m4v";
 			},
 		);
+		id = 2;
+		overview = "How to win Foursquare friends and influence people.";
 		properties = {
-			speaker = "Josh R";
 			event = "June 2010";
+			speaker = "Josh R";
 			topic = (
 				Business,
 				Location,
 				Foursquare,
 			);
 		};
+		title = "How to win Foursquare friends and influence people.";
 	},
 )
